@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -7,12 +7,10 @@ __pycache__/
 venv/
 env/
 .venv/
-ENV/
 
-# Environment files
+# Environment
 .env
 .env.local
-.env.*.local
 
 # IDE
 .idea/
@@ -21,45 +19,18 @@ ENV/
 *.swo
 *~
 
-# Pytest
+# Pytest & Coverage
 .pytest_cache/
-.cache/
-*.pytest_cache
-
-# Coverage
-htmlcov/
 .coverage
-.coverage.*
-coverage.xml
 *.cover
 
 # Test reports
 **/reports/
 **/allure-results/
-**/screenshots/
-*.html
-
-# Apps (large binary files)
-**/apps/*.apk
-**/apps/*.app
-**/apps/*.ipa
 
 # macOS
 .DS_Store
-.DS_Store?
 ._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
 
 # Logs
 *.log
-logs/
-
-# OS
-Thumbs.db
-.AppleDouble
-.LSOverride
-chromedriver
-geckodriver
