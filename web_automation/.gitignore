@@ -34,15 +34,10 @@ coverage.xml
 *.cover
 
 # Test reports
-**/reports/
-**/allure-results/
-**/screenshots/
+reports/
+allure-results/
+screenshots/
 *.html
-
-# Apps (large binary files)
-**/apps/*.apk
-**/apps/*.app
-**/apps/*.ipa
 
 # macOS
 .DS_Store
@@ -61,5 +56,3 @@ logs/
 Thumbs.db
 .AppleDouble
 .LSOverride
-chromedriver
-geckodriver

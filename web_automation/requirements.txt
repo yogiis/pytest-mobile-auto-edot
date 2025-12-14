@@ -1,0 +1,8 @@
+# Web Automation Dependencies
+pytest==7.4.3
+pytest-html==4.1.1
+pytest-xdist==3.5.0
+selenium==4.16.0
+webdriver-manager==4.0.1
+allure-pytest==2.13.2
+python-dotenv==1.0.0
