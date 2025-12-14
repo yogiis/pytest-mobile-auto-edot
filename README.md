@@ -1,0 +1,1 @@
+# pytest-mobile-auto-edot
